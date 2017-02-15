@@ -1,14 +1,16 @@
 .container{
 
 	margin: 0 auto;
-	width:60%;
-	background-color: 
+	width:41%;
+	background-color: #ffffff;
+
 }
 #prof-pic {
 	
 	border-radius:0%;
 	width: 168px;
 	height: 106px;
+	background-color: #ffffff;
 }
 #header {
 	text-align: center;
@@ -27,4 +29,10 @@
   position: absolute;
   top: 0;
   left: 0;
+}
+#links {
+	font-family: "CitrixSans",Arial,Helvetica,Sans-Serif;
+	color:#84c727;
+	font-size:13px;
+	margin-top: 20px;
 }
