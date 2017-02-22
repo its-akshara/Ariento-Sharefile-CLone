@@ -24,35 +24,44 @@
 	
 }
 #footerpics{
-	height: 50%;
-	width: 50%;
+	height: 60px;
+	width: 60px;
 }
 table{
-	border: 1px solid white;
-	border-spacing: 5px;
-	align-self: center;
-	text-align: center;
+	margin-top: 0px;
+	margin-left: 250px;
+	border: 0px solid white;
+	align-self: left;
+	text-align: left;
+	size: 80%;
+	padding-top: 0px;
 }
 th, td {
-    padding: 15px;
-    text-align: center;
+    
+    padding-top: 0px;
+    padding: 50px;
+    padding-left: 25px;
+    padding-right: 0px;
+    text-align: left;
 
 }
 footer{
 	bottom:0;
-	position: absolute;;
+	position: relative;;
 		width: 100%;
-	text-align:center;
+	text-align:left;
 	display:block;
 	margin:0 auto;
 	background-color: #ffffff;
-
+	z-index: 100;
+	margin-top: 0;
     
 }
 body{
 	 width: 100%;
   position: absolute;
   top: 0;
+  margin-top: 0px;
   left: 0;
   height: 100%;
   overflow: auto;
@@ -61,6 +70,7 @@ body{
   min-height: 100%
   display: flex;
   flex-direction: column;
+  z-index: 0;
   background-size: 100%;
 }
 #citrix{
@@ -68,15 +78,45 @@ body{
 	width: 70px;
 	height: 20px;
 }
+#rem{
+	background-color: :#CCCCCC;;
+}
 #links {
 	font-family: "CitrixSans",Arial,Helvetica,Sans-Serif;
 	color:#84c727;
 	font-size:13px;
 	margin-top: 20px;
+	padding-top: 15px;
 }
+#text1{
+    
+    font-weight: normal;
+    font-family: Helvetica;
+	color:#8d8e8d;
+	font-size: 20px;
+	margin-top: 30px;
+	padding-bottom: 25px;
+	margin-bottom: 10px;
+}
+#text2{
+	font-weight: normal;
+    font-family: sans-serif;
+	color:#666666;
+	font-size: 12px;
+	
+}
+#text3{
+	font-family: "CitrixSans",Arial,Helvetica,Sans-Serif;
+	color:#84c727;
+	font-size:16px;
+	font-weight: normal;
+
+}
+
 #right-floater{
 	position: fixed;
 	bottom: 10px;
+	z-index: 1000;
     right: 20px;
     width: 105px;
     height: 54px;
